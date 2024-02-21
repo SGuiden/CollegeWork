@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ArrayManipulation/ArrayManipulation.iml" filepath="$PROJECT_DIR$/ArrayManipulation/ArrayManipulation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CarsClass/CarsClass.iml" filepath="$PROJECT_DIR$/CarsClass/CarsClass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Classwork/Classwork.iml" filepath="$PROJECT_DIR$/Classwork/Classwork.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/OOP y2.iml" filepath="$PROJECT_DIR$/.idea/OOP y2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Classwork/untitled/heaterExercise.iml" filepath="$PROJECT_DIR$/Classwork/untitled/heaterExercise.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: week2.UtilitiesFindLongestTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec <<< FAILURE!
+week2.UtilitiesFindLongestTest.testFindLongest_EmptyArray()  Time elapsed: 0.01 sec  <<< FAILURE!
+java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at utils.ExerciseUtilities.findLongest(ExerciseUtilities.java:39)
+	at week2.UtilitiesFindLongestTest.testFindLongest_EmptyArray(UtilitiesFindLongestTest.java:44)
+

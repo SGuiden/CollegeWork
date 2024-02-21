@@ -1,0 +1,5 @@
+utils\UtilitiesReverseTest.class
+utils\UtilitiesGetLastPosTest.class
+utils\UtilitiesCheckIdenticalTest.class
+utils\UtilitiesReverseInPlaceTest.class
+utils\UtilitiesGetFirstPosTest.class

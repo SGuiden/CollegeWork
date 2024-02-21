@@ -1,0 +1,4 @@
+utils\StringUtilitiesCountTest.class
+utils\StringUtilitiesDeduplicateTest.class
+utils\StringUtilitiesMergeTest.class
+utils\StringUtilitiesPartitionTest.class
