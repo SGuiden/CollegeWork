@@ -9,7 +9,7 @@ public class Main {
         String Password = "frgh";
         int choice = -1;
         String Result = "";
-        String[] Options = {"0. Encrypt Shift Cypher", "1. Encrypt Caesar Cypher","2. Decrypt Shift Cypher", "3. Decrypt Caesar Cypher"};
+        String[] Options = {"0. Encrypt Shift Cypher", "1. Encrypt Caesar Cypher","2. Decrypt Shift Cypher", "3. Decrypt Caesar Cypher", "4. HashPassword"};
 
         Scanner kb = new Scanner(System.in);
         for(int i = 0; i < Options.length; i++){
