@@ -2,12 +2,21 @@ package utils;
 
 public class LinkedList {
     private Song [] LinkedList = new Song[0];
-    private int tail = 0;
-    private int head = 0;
-    private int numElements = 0;
+    private Node tail;
+    private Node head;
+    private int numElements;
+    public LinkedList{
+        head = null;
+        numElements = 0;
+    }
     //Implement a list to store Songs. This list should be implemented as a link-based list class named LinkedList. This list
     //should maintain a tail reference, as well as a reference to the first element. The following functionality should be
     //provided:
+
+    /**
+     * returns the size of the LinkedList
+     * @return numElements, a varaible counting how many elements are in the list
+     */
     public int size(){
         return numElements;
     }
@@ -36,13 +45,36 @@ public class LinkedList {
         if(indexOf(song) == -1){
             grow();
             LinkedList[numElements];
+            tail= tail + 1;
+        }
+        else{
+            System.out.println("Song Already Esists");
         }
     }
     //4. A method called add() that takes a single parameter, a Song to be added to the end of the list.
+    public static void add(Song song){
+        if(indexOf(song) == -1){
+            grow();
+            LinkedList[numElements];
+        }
+    }
+
     //5. A method called isEmpty() that takes no parameters. This should return a boolean indicating if there is data
     //currently stored in the list.
-    //6. A method called tail() that takes no parameters. This should return the last element in the list
 
+    public static boolean isEmpty(){
+        if(numElements == 0 || utils.LinkedList == null){
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+    //6. A method called tail() that takes no parameters. This should return the last element in the list
+    public static Song Tail(){
+        return LinkedList[tail];
+}
 
     //All Songs in your LinkedList must be by the same artist (case-insensitive). The artist to be accepted by the list is the artist of whatever is the first Song added to the list. You should include any appropriate method or methods to facilitate this, and the logic of your class should uphold this requirement throughout.
 
@@ -52,8 +84,9 @@ public class LinkedList {
     //All instances of this Song should be removed from the list. The method should return a boolean indicating if the Song was removed (if at least one instance is removed, the method should return true, otherwise it should return false).
 
 public static void grow(){
+        Song [] grownList = new Song[numElements+1];
         this.numElements++;
-
+        LinkedList = grownList;
 }
 
 }
